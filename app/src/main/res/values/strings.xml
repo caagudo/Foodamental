@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Foodamental</string>
+    <string name="inicio_btn">Inicio Sesión</string>
+    <string name="registro_btn">Registrarse</string>
 </resources>

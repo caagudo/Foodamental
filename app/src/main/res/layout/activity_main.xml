@@ -9,31 +9,40 @@
 
     <Button
         android:id="@+id/inicio_BTN"
-        android:layout_width="206dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="102dp"
         android:layout_marginLeft="102dp"
         android:layout_marginTop="300dp"
         android:layout_marginEnd="103dp"
         android:layout_marginRight="103dp"
-        android:text="Iniciar Sesión"
+        android:layout_marginBottom="384dp"
+        android:text="@string/registro_btn"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/registro_btn"
+        tools:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="300dp"
+        android:text="@string/registro_btn"
+        android:textColor="@android:color/background_dark"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="206dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="102dp"
-        android:layout_marginLeft="102dp"
-        android:layout_marginEnd="103dp"
-        android:layout_marginRight="103dp"
-        android:layout_marginBottom="300dp"
-        android:text="Registrarse"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
