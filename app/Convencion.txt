@@ -1,0 +1,4 @@
+Botones: nombre_btn
+ImageButton: nombre_ibn
+TextView: nombre_tvw
+PlainText: nombre_ptx
